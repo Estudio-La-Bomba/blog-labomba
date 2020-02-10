@@ -1,0 +1,38 @@
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5%;
+  column-gap: 15%;
+  margin-top: 15%;
+
+  &-single {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: em(20);
+      line-height: em(20);
+      margin-bottom: 3%;
+      margin-top: 5%;
+    }
+
+    &-tags {
+      color: $magenta;
+    }
+
+    p {
+      margin-top: 5%;
+      font-size: em(14);
+    }
+
+    &:nth-child(even) {
+      margin-top: 10%;
+    }
+  }
+
+  &-title {
+    margin-top: 10%;
+  }
+}
