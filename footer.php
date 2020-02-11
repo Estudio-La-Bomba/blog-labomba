@@ -1,5 +1,5 @@
 <?php if (!is_home()) {?>
-
+<div class="clearfix"></div>
 <footer class="container <?php if (is_category()) {echo 'category-footer';}?>">
   <a href="/" class="logo">
     <svg xmlns="http://www.w3.org/2000/svg" width="189" height="31.82" viewBox="0 0 189 31.82">
@@ -38,6 +38,7 @@
 
 <?php }?>
 
+
 <?php wp_footer()?>
 
 <!-- Scripts -->
@@ -45,9 +46,9 @@
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script src="<?php bloginfo('template_directory')?>/assets/js/main.js"></script>
+
+
 </body>
 
 </html>
