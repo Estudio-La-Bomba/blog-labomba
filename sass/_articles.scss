@@ -6,20 +6,42 @@
   margin-top: 15%;
 
   &-single {
+    a {
+      text-decoration: none;
+    }
     img {
       max-width: 100%;
-      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+      transition: all ease 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
     }
 
     h2 {
+      color: #fff;
       font-size: em(20);
       line-height: em(20);
       margin-bottom: 3%;
       margin-top: 5%;
+      transition: all ease 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
     }
 
-    &-tags {
+    &-tags a {
       color: $magenta;
+      text-decoration: none;
+      transition: all ease 0.5s;
+
+      &:hover {
+        color: $amarelo;
+        opacity: 0.5;
+      }
     }
 
     p {
@@ -28,7 +50,7 @@
     }
 
     &:nth-child(even) {
-      margin-top: 10%;
+      padding-top: 10%;
     }
   }
 
