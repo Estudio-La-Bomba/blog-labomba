@@ -18,7 +18,9 @@ $(document).ready(() => {
   const carousel = $(".article-carousel").flickity({
     cellAlign: "left",
     prevNextButtons: false,
-    pageDots: false
+    pageDots: false,
+    autoPlay: true,
+    pauseAutoPlayOnHover: true
   });
 
   // Dots

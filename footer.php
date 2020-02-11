@@ -1,5 +1,4 @@
 <?php if (!is_home()) {?>
-<div class="clearfix"></div>
 <footer class="container <?php if (is_category()) {echo 'category-footer';}?>">
   <a href="/" class="logo">
     <svg xmlns="http://www.w3.org/2000/svg" width="189" height="31.82" viewBox="0 0 189 31.82">

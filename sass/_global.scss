@@ -8,8 +8,6 @@
 html,
 body {
   font-size: 16px;
-  position: relative;
-  overflow-x: hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
@@ -19,7 +17,6 @@ body {
 }
 
 body {
-  height: 100%;
   background-color: $body-background-color;
   color: $body-color-text;
   font-family: $font-family-sans-serif;
@@ -61,6 +58,9 @@ h6 {
 }
 
 .container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 10%;
 }
 
