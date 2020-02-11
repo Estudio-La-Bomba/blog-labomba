@@ -16,13 +16,27 @@
       width: 500px;
 
       a {
-        color: #fff;
         text-decoration: none;
+
+        h4 {
+          color: #fff;
+        }
+      }
+
+      small a {
+        color: $magenta;
+        transition: all ease 0.5s;
+
+        &:hover {
+          color: $amarelo;
+          opacity: 0.5;
+        }
       }
 
       img {
+        object-fit: cover;
         width: 90%;
-        height: auto;
+        max-height: 300px;
       }
     }
   }

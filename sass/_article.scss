@@ -20,6 +20,17 @@ article {
     &-tags {
       color: $magenta;
       margin: 50px 0;
+
+      a {
+        color: $magenta;
+        text-decoration: none;
+        transition: all ease 0.5s;
+
+        &:hover {
+          color: $amarelo;
+          opacity: 0.5;
+        }
+      }
     }
 
     &-content {
