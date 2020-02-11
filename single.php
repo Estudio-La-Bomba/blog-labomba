@@ -3,11 +3,13 @@
 <?php if (have_posts()): while (have_posts()): the_post();?>
 
 <article>
+  <small class="article-tags"><?php the_tags('', ', ')?></small>
+
   <h2 class="article-title">
     <?php the_title();?>
   </h2>
+
   <p class="article-subtitle"><?php the_field('article_subtitle')?></p>
-  <small class="article-tags"><?php the_tags('', ', ')?></small>
 
   <div class="article-content">
     <?php the_content();?>
