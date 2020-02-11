@@ -30,5 +30,3 @@ $(document).ready(() => {
     carousel.flickity("next");
   });
 });
-
-AOS.init();
