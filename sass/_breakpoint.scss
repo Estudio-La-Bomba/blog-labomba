@@ -7,7 +7,8 @@
 
   .theme-switcher {
     &-button {
-      &-dark {
+      &-dark,
+      .article-show &-dark {
         right: 15%;
       }
     }
@@ -25,7 +26,8 @@
 
   .theme-switcher {
     &-button {
-      &-dark {
+      &-dark,
+      .article-show &-dark {
         right: 15.6%;
       }
     }
@@ -35,7 +37,8 @@
 @media (max-width: 768px) {
   .theme-switcher {
     &-button {
-      &-dark {
+      &-dark,
+      .article-show &-dark {
         right: 17.3%;
       }
     }
@@ -81,12 +84,22 @@
       font-size: em(10);
     }
   }
+
+  .theme-switcher {
+    &-button {
+      &-dark,
+      .article-show &-dark {
+        right: 20%;
+      }
+    }
+  }
 }
 
 @media (max-width: 414px) {
   .theme-switcher {
     &-button {
-      &-dark {
+      &-dark,
+      .article-show &-dark {
         right: 21.3%;
       }
     }
