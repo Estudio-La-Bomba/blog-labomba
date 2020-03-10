@@ -3,14 +3,16 @@
 
 // Default
 @import "global";
-
-// Theme
 @import "nav";
 @import "article";
 @import "article-slider";
 @import "articles";
 @import "category";
 @import "footer";
+
+// Theme
+@import "_theme-switcher";
+@import "_light";
 
 // Breakpoint
 @import "breakpoint";
