@@ -90,17 +90,29 @@
           </g>
         </svg>
       </a>
-      <a href="https://www.estudiolabomba.com/" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="29.25" height="27" viewBox="0 0 29.25 27">
-          <defs>
-            <style>
-            .a {
-              fill: #fff;
-            }
-            </style>
-          </defs>
-          <path class="a" d="M14.625,31.5v-9h6.75v9h6.862V18h4.388L18,4.5,3.375,18H7.762V31.5Z"
-            transform="translate(-3.375 -4.5)" />
-        </svg>
-      </a>
+      <div class="buttons">
+        <div class="theme-switcher">
+          <div class="theme-switcher-button-wrap">
+            <div class="theme-switcher-button-bg">
+              <div class="theme-switcher-button-light">light</div>
+              <div class="theme-switcher-button-dark">dark</div>
+              <div class="theme-switcher-button-switch"></div>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://www.estudiolabomba.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="29.25" height="27" viewBox="0 0 29.25 27">
+            <defs>
+              <style>
+              .a {
+                fill: #fff;
+              }
+              </style>
+            </defs>
+            <path class="a" d="M14.625,31.5v-9h6.75v9h6.862V18h4.388L18,4.5,3.375,18H7.762V31.5Z"
+              transform="translate(-3.375 -4.5)" />
+          </svg>
+        </a>
+      </div>
     </nav>

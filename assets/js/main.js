@@ -31,4 +31,29 @@ $(document).ready(() => {
   $(".article-dots-next").on("click", () => {
     carousel.flickity("next");
   });
+
+  // Toggle Theme
+  $(".theme-switcher-button-wrap").on("click", function() {
+    $(this).toggleClass("theme-switcher-button-active");
+    $("body").toggleClass("light");
+
+    const checkLight = $(".light");
+
+    if (checkLight[0]) {
+      localStorage.setItem("theme", "light");
+    }
+
+    if (!checkLight[0]) {
+      localStorage.clear();
+    }
+  });
+
+  const theme = localStorage.getItem("theme");
+
+  if (theme === "light") {
+    $(".theme-switcher-button-wrap").toggleClass(
+      "theme-switcher-button-active"
+    );
+    $("body").toggleClass("light");
+  }
 });

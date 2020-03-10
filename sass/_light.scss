@@ -1,0 +1,73 @@
+.light {
+  background-color: #f5f5f5;
+  color: #222;
+
+  *::selection {
+    background: rgba(0, 0, 0, 0.2);
+    user-select: none;
+  }
+
+  svg {
+    filter: brightness(0);
+  }
+
+  header {
+    .help {
+      color: #000;
+    }
+  }
+
+  article {
+    .article {
+      &-subtitle {
+        color: #000;
+      }
+
+      &-content {
+        color: #000;
+
+        img {
+          box-shadow: 0px 3px 20px rgb(216, 216, 216);
+        }
+
+        a {
+          color: $magenta;
+
+          &:hover {
+            color: $amarelo;
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    color: $magenta;
+    border-color: $magenta;
+
+    &:hover {
+      color: #000;
+      border-color: #000;
+    }
+  }
+
+  .articles {
+    &-single {
+      h2 {
+        color: $magenta;
+      }
+    }
+  }
+
+  .article {
+    &-carousel {
+      &-item {
+        a {
+          h4 {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
