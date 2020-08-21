@@ -1,6 +1,5 @@
 // Variables
 @import "variables";
-
 // Default
 @import "global";
 @import "nav";
@@ -9,10 +8,8 @@
 @import "articles";
 @import "category";
 @import "footer";
-
 // Theme
 @import "_theme-switcher";
 @import "_light";
-
 // Breakpoint
 @import "breakpoint";

@@ -94,8 +94,6 @@
         <div class="theme-switcher">
           <div class="theme-switcher-button-wrap">
             <div class="theme-switcher-button-bg">
-              <div class="theme-switcher-button-light">light</div>
-              <div class="theme-switcher-button-dark">dark</div>
               <div class="theme-switcher-button-switch"></div>
             </div>
           </div>

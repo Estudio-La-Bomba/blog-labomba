@@ -9,87 +9,72 @@
 
 article {
   margin-top: 5%;
-
   .article {
     &-title {
       font-size: em(60);
       line-height: em(20);
       margin-bottom: 2%;
     }
-
     &-subtitle {
       color: #f5f5f5;
       margin: 2% 0;
     }
-
     &-tags {
       color: $magenta;
       margin: 50px 0;
-
       a {
         color: $magenta;
         text-decoration: none;
         transition: all ease 0.5s;
-
         &:hover {
           color: $amarelo;
           opacity: 0.5;
         }
       }
     }
-
     &-content {
       margin-top: 2%;
       line-height: em(25);
       text-align: justify;
       color: #f5f5f5;
-
       h2,
       h3,
       h4 {
         color: $magenta;
         margin: 2% 0;
       }
-
       figure {
         text-align: center;
         margin: 5% 0;
       }
-
       figcaption {
         font-style: italic;
         font-size: em(14);
         margin-top: 2%;
       }
-
       img {
         max-width: 100%;
         height: auto;
         transition: all ease 0.5s;
         box-shadow: 0px 3px 70px rgba(66, 66, 66, 0.75);
-
         &:hover {
           opacity: 0.7;
         }
       }
-
       p,
       ul {
         margin-bottom: 2%;
         list-style: none;
       }
-
       li {
         &:before {
           content: "- ";
         }
       }
-
       a {
         color: $amarelo;
         text-decoration: none;
         transition: all ease 0.5s;
-
         &:hover {
           color: $magenta;
           opacity: 0.5;
@@ -111,19 +96,16 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   p {
     color: $cinza;
     font-style: italic;
   }
-
   ul {
     list-style: none;
     display: flex;
     margin: 2% 0;
     width: 10%;
     justify-content: space-between;
-
     a {
       transition: all ease 0.5s;
       &:hover {

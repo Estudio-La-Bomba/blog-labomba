@@ -7,32 +7,25 @@
     margin-left: 5em;
     margin-top: 5%;
   }
-
   &-carousel {
     text-align: left;
     height: 100%;
-
     &-item {
       width: 500px;
-
       a {
         text-decoration: none;
-
         h4 {
           color: #fff;
         }
       }
-
       small a {
         color: $magenta;
         transition: all ease 0.5s;
-
         &:hover {
           color: $amarelo;
           opacity: 0.5;
         }
       }
-
       img {
         object-fit: cover;
         width: 90%;
@@ -40,29 +33,24 @@
       }
     }
   }
-
   &-dots {
     text-align: right;
-
     &-prev svg {
       cursor: pointer;
       fill: none;
       stroke: #fff;
       stroke-width: 2;
       transition: all ease 0.4s;
-
       &:hover {
         opacity: 0.7;
       }
     }
-
     &-next svg {
       fill: none;
       stroke: $amarelo;
       stroke-width: 2;
       cursor: pointer;
       transition: all ease 0.4s;
-
       &:hover {
         opacity: 0.7;
       }

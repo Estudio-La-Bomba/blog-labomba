@@ -4,7 +4,6 @@
   row-gap: 2%;
   column-gap: 15%;
   margin-top: 15%;
-
   &-single {
     a {
       text-decoration: none;
@@ -14,12 +13,10 @@
       max-height: 300px;
       object-fit: cover;
       transition: all ease 0.5s;
-
       &:hover {
         opacity: 0.5;
       }
     }
-
     h2 {
       color: #fff;
       font-size: em(20);
@@ -27,33 +24,27 @@
       margin-bottom: 3%;
       margin-top: 5%;
       transition: all ease 0.5s;
-
       &:hover {
         opacity: 0.5;
       }
     }
-
     &-tags a {
       color: $magenta;
       text-decoration: none;
       transition: all ease 0.5s;
-
       &:hover {
         color: $amarelo;
         opacity: 0.5;
       }
     }
-
     p {
       margin-top: 5%;
       font-size: em(14);
     }
-
     &:nth-child(even) {
       padding-top: 10%;
     }
   }
-
   &-title {
     margin-top: 10%;
   }

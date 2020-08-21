@@ -6,7 +6,7 @@
 
 <main class="articles">
 
-  <?php if (have_posts()): while (have_posts()): the_post();?>
+<?php if (have_posts()): while (have_posts()): the_post();?>
 
   <div class="articles-single">
     <a href="<?php the_permalink();?>"><?php the_post_thumbnail()?></a>
@@ -26,7 +26,7 @@
   <p><?php esc_html_e('Sorry, no posts matched your criteria.');?></p>
   <?php endif;?>
 
-</main>
+  </main>
 </div>
 
-<?php get_footer('clear')?>
+<?php get_footer()?>

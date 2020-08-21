@@ -9,12 +9,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   h1 {
     max-width: 70%;
     font-size: em(60);
   }
-
   .help {
     position: relative;
     top: 25%;
@@ -25,17 +23,14 @@ header {
     align-items: center;
     justify-content: center;
     transition: all ease 0.5s;
-
     span {
       font-size: em(35);
       transform: rotate(-180deg);
       writing-mode: tb;
     }
-
     .arrow {
       margin-top: 2em;
     }
-
     &:hover {
       opacity: 0.5;
     }

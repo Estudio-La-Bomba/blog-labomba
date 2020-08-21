@@ -10,7 +10,6 @@ body {
   font-size: 16px;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-
   &::-webkit-scrollbar {
     display: none;
   }
@@ -75,7 +74,6 @@ h6 {
   border: 2px solid $amarelo;
   width: fit-content;
   transition: all ease 0.4s;
-
   &:hover {
     color: #fff;
     border-color: #fff;
@@ -85,7 +83,6 @@ h6 {
 
 .clearfix {
   overflow: auto;
-
   &::after {
     content: "";
     clear: both;
