@@ -1,4 +1,3 @@
-<?php if (!is_home()) {?>
 <footer class="container <?php if (is_category()) {echo 'category-footer';}?>">
   <a href="/" class="logo">
     <svg xmlns="http://www.w3.org/2000/svg" width="189" height="31.82" viewBox="0 0 189 31.82">
@@ -34,9 +33,6 @@
 
   <p>todos os direitos reservados.</p>
 </footer>
-
-<?php }?>
-
 
 <?php wp_footer()?>
 
