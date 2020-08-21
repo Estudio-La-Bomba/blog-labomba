@@ -52,12 +52,12 @@
 <body>
 
   <?php if (!is_single()) {?>
-  <div id="loading">
-    <img id="loading-image" src="<?php bloginfo('template_directory')?>/assets/img/loader.gif" alt="Loading..." />
-  </div>
+    <div id="loading">
+      <img id="loading-image" src="<?php bloginfo('template_directory')?>/assets/img/loader.gif" alt="Loading..." />
+    </div>
   <?php }?>
 
-  <div class="container <?php if (is_home()) {echo "initial";}?> <?php if (is_single()) {echo "article-show";}?>">
+  <div class="container <?php if (is_single()) {echo "article-show";}?>">
     <nav>
       <a href="/" class="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="189" height="31.82" viewBox="0 0 189 31.82">
