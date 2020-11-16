@@ -2,22 +2,23 @@
 
 <?php if (have_posts()): while (have_posts()): the_post();?>
 
-<article>
-  <small class="article-tags"><?php the_tags('', ', ')?></small>
+						<article>
+						<small class="article-date"><?php the_date()?> - </small>
+						  <small class="article-tags"><?php the_tags('', ', ')?></small>
 
-  <h2 class="article-title">
-    <?php the_title();?>
-  </h2>
+						  <h2 class="article-title">
+						    <?php the_title();?>
+						  </h2>
 
-  <p class="article-subtitle"><?php the_field('article_subtitle')?></p>
+						  <p class="article-subtitle"><?php the_field('article_subtitle')?></p>
 
-  <div class="article-content">
-    <?php the_content();?>
-  </div>
-</article>
-<hr />
+						  <div class="article-content">
+						    <?php the_content();?>
+						  </div>
+						</article>
+						<hr />
 
-<?php endwhile;else: ?>
+						<?php endwhile;else: ?>
 <p><?php esc_html_e('Sorry, no posts matched your criteria.');?></p>
 <?php endif;?>
 
