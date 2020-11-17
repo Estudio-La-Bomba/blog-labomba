@@ -92,9 +92,9 @@
       </a>
       <div class="buttons">
 
-        <a href="https://www.estudiolabomba.com/metodologia.html" target="_blank">Nosso Universo</a>
-        <a href="https://www.estudiolabomba.com/cases.html" target="_blank">Cases</a>
-        <a href="https://www.estudiolabomba.com/contato.html" target="_blank">Contato</a>
+        <a href="https://www.estudiolabomba.com/metodologia.html" target="_blank" class="menu-link">Nosso Universo</a>
+        <a href="https://www.estudiolabomba.com/cases.html" target="_blank" class="menu-link">Cases</a>
+        <a href="https://www.estudiolabomba.com/contato.html" target="_blank" class="menu-link">Contato</a>
 
         <ul class="social">
           <li>

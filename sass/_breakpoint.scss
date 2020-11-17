@@ -41,6 +41,10 @@
       }
     }
   }
+
+  .menu-link {
+    display: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -54,6 +58,7 @@
     .article {
       &-title {
         font-size: em(30);
+        margin-bottom: 2rem;
       }
     }
   }
@@ -66,6 +71,9 @@
     display: block;
   }
   .article {
+    &-slider {
+      margin-left: 2rem;
+    }
     &-carousel {
       &-item {
         width: 100%;
@@ -89,11 +97,16 @@
 
 @media (max-width: 414px) {
   .theme-switcher {
+    margin: 0;
     &-button {
       &-dark,
       .article-show &-dark {
         right: 21.3%;
       }
     }
+  }
+
+  .logo svg {
+    max-width: 100px;
   }
 }
