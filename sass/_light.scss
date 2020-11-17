@@ -5,6 +5,15 @@
     background: rgba(0, 0, 0, 0.2);
     user-select: none;
   }
+  .buttons {
+    a {
+      color: #000;
+
+      &:hover {
+        color: $magenta;
+      }
+    }
+  }
   svg {
     filter: brightness(0);
   }

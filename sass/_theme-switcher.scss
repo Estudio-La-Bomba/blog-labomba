@@ -2,6 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $amarelo;
+    }
+  }
+
+  .social {
+    display: flex;
+    list-style: none;
+
+    a {
+      margin-right: 1rem;
+    }
+
+    svg {
+      max-width: 25px;
+      height: auto;
+    }
+  }
 }
 
 .theme-switcher {
