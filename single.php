@@ -52,7 +52,7 @@
         <?php
 	      if(get_the_author_meta('linkedin') ): ?>
         <a class="author-linkedin" target="_blank" rel="noopener noreferrer"
-          href="<?php echo get_the_author_meta('instagram'); ?>">
+          href="<?php echo get_the_author_meta('linkedin'); ?>">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 35.865 35.865">
             <defs>
               <style>
